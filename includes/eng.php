@@ -34,11 +34,12 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">About Me</li>
-             <li id="contact" onclick="inTouch();" class="underline contact-large">Contact</li>
+             <li id="whose" onclick="whoIs();" class="underline">Hello!</li>
+             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Learn English</a>
+
+             <li id="contact" onclick="inTouch();" class="underline contact-large">More Info</li>
 
 
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Classes</a>
              </li>
 
 
@@ -87,7 +88,7 @@
          <div id="top1" class="top1" name="top1">
 
              <div class="left1">
-                 <p>Contact Form</p>
+                 <p>Tell Me More!</p>
 
                  <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -140,7 +141,7 @@
 
                      <div class="form-group">
                          <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Send
-                             Message</button>
+                         </button>
                      </div>
                  </form>
 

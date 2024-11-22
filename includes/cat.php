@@ -35,11 +35,12 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">Qui Soc?</li>
-             <li id="contact" onclick="inTouch();" class="underline contact-large">Contacte</li>
+             <li id="whose" onclick="whoIs();" class="underline">Hola!</li>
+             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Aprendre Anglès</a>
+
+             <li id="contact" onclick="inTouch();" class="underline contact-large">Més Informació</li>
 
 
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Què Faig?</a>
              </li>
 
 
@@ -87,7 +88,7 @@
          <div id="top1" class="top1" name="top1">
 
              <div class="left1">
-                 <p>Formulari de Contacte</p>
+                 <p>Vull Saber Més!</p>
                  <!-- <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Collect and sanitize the form data
@@ -209,8 +210,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                      </div>
 
                      <div class="form-group">
-                         <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Send
-                             Message</button>
+                         <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Envia</button>
                      </div>
                  </form>
 

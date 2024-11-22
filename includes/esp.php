@@ -34,11 +34,12 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">¿Quíen Soy?</li>
-             <li id="contact" onclick="inTouch();" class="underline contact-large">Contacto</li>
+             <li id="whose" onclick="whoIs();" class="underline">¡Hola!</li>
+             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Aprender Inglés</a>
+
+             <li id="contact" onclick="inTouch();" class="underline contact-large">Más Información</li>
 
 
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">¿Qué Hago?</a>
              </li>
 
 
@@ -82,7 +83,7 @@
          <div id="top1" class="top1" name="top1">
 
              <div class="left1">
-                 <p>Formulario de Contacto</p>
+                 <p>¡Quiero Saber Más!</p>
 
                  <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -112,21 +113,21 @@
                  <form id="form-id" class="form-class" method="post" action="">
 
                      <div class="form-group">
-                         <label for="Name" class="label">name</label>
+                         <label for="Name" class="label">nombre</label>
                          <div class="input-group">
                              <input type="text" id="name" name="name" class="form-control" required>
                          </div>
                      </div>
 
                      <div class="form-group">
-                         <label for="Email" class="label">e-mail</label>
+                         <label for="Email" class="label">correo electrónico</label>
                          <div class="input-group">
                              <input type="email" id="email" name="email" class="form-control" required>
                          </div>
                      </div>
 
                      <div class="form-group">
-                         <label for="Message" class="label">message</label>
+                         <label for="Message" class="label">mensaje</label>
                          <div class="input-group">
                              <textarea type="message" id="message" name="message" class="form-control" rows="6"
                                  maxlength="3000" required></textarea>
@@ -134,8 +135,7 @@
                      </div>
 
                      <div class="form-group">
-                         <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Send
-                             Message</button>
+                         <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Envia</button>
                      </div>
                  </form>
 
