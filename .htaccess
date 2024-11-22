@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Exclude the /dugaldsteer/ directory from all redirections
+RewriteCond %{REQUEST_URI} ^/dugaldsteer/ [NC]
+RewriteRule ^ - [L]
+
+# Exclude contact-form-process.php from being rewritten
+RewriteCond %{REQUEST_URI} !^/contact-form-process\.php$ [NC]
+
+# Redirect the root URL to /ca/ if no language is specified
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /ca/ [L,R=301]
+
+# Redirect valid language subdirectories (en, es, ca) to index.php
+RewriteCond %{REQUEST_URI} ^/(en|es|ca)/?$ [NC]
+RewriteRule ^(en|es|ca)/?$ /index.php [L]
+
+# Exclude static resources (CSS, JS, images) from being rewritten to index.php
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|ico)$ [NC]
+
+# Prevent infinite loops by ensuring the request is not already going to index.php
+RewriteCond %{REQUEST_URI} !^/index\.php$ [NC]
+
+# Redirect ALL other subdirectories (including invalid languages like /de) to index.php
+RewriteCond %{REQUEST_URI} !^/(en|es|ca)/?$ [NC]
+RewriteRule ^(.*)$ /index.php [L]
