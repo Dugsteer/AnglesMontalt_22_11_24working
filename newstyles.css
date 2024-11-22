@@ -7,7 +7,7 @@
   --color-slate: #33363b;
   --color-light-grey: #eaeaea;
   --color-yellow: #cdfac9;
-  --blue: #368cbf; 
+  --blue: #368cbf;
   --green: #7ebc59;
   --slate: #33363b;
   --light-grey: #eaeaea;
@@ -71,13 +71,12 @@ body {
   width: 100%;
   background-image: linear-gradient(
     to bottom right,
-      rgba(0, 80, 13, 0.8),
+    rgba(0, 80, 13, 0.8),
     rgba(0, 80, 13, 1)
   );
   clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
   padding: 40px;
 }
-
 
 .header p {
   margin: 0;
@@ -719,12 +718,9 @@ blockquote:hover .second-quote {
 }
 
 @media only screen and (max-width: 1100px) {
-
   .header-right {
- 
-background-position: center top;
-background-size: 100%;
-  
+    background-position: center top;
+    background-size: 100%;
   }
   .content {
     height: auto;
@@ -743,24 +739,18 @@ background-size: 100%;
 @media only screen and (max-width: 700px) {
   /* The title hero div */
 
-
-
   .header {
     height: 400px;
   }
 
   .header-right {
- 
-background-position: center top;
-background-size: 100%;
-  
+    background-position: center top;
+    background-size: 100%;
   }
 
   .header-left {
     display: none;
   }
-
-
 
   .flag-div {
     position: absolute;
@@ -934,15 +924,15 @@ background-size: 100%;
     margin-left: 8px;
     line-height: 90px;
     background-image: url(img/Santvi_Platja.jpg);
-background-position: center top;
-background-size: 100%;
+    background-position: center top;
+    background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
   }
 
- .whatsapp-icon {
+  .whatsapp-icon {
     width: 40px;
     height: 40px;
     font-size: 5rem;
@@ -950,40 +940,40 @@ background-size: 100%;
     right: 100px;
   }
 
-    .flag-div {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      z-index: 1;
-    }
+  .flag-div {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+  }
 
-    .flag-div-inner {
-      cursor: pointer;
-      margin-bottom: 7px;
-      box-shadow: var(--box-shadow-large);
-    }
+  .flag-div-inner {
+    cursor: pointer;
+    margin-bottom: 7px;
+    box-shadow: var(--box-shadow-large);
+  }
   .topsdiv {
-      margin-bottom: 2cqi;
-      margin: auto;
-      height: 800px;
-      width: 350px;
-      overflow: hidden;
-    }
+    margin-bottom: 2cqi;
+    margin: auto;
+    height: 800px;
+    width: 350px;
+    overflow: hidden;
+  }
 
-    .top1,
-    .top2 {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: center;
-      top: 50%;
-      left: 50%;
-      flex-shrink: 1;
-      display: flex;
-      margin: auto;
-      width: 400px;
-    }
+  .top1,
+  .top2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    flex-shrink: 1;
+    display: flex;
+    margin: auto;
+    width: 400px;
+  }
 }
-  /* @media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .whatsapp-icon {
       width: 50px;
       height: 50px;
@@ -1025,4 +1015,3 @@ background-size: 100%;
       width: 400px;
     }
   } */
-}
