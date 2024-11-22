@@ -739,7 +739,7 @@ blockquote:hover .second-quote {
     height: 400px;
   }
 
-  .header-left {
+  /* .header-left {
     display: none;
   }
 
@@ -754,7 +754,7 @@ blockquote:hover .second-quote {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
-  }
+  } */
 
   .flag-div {
     position: absolute;
@@ -921,7 +921,7 @@ blockquote:hover .second-quote {
     font-weight: 1200;
   }
 
-  @media only screen and (max-width: 400px) {
+  /* @media only screen and (max-width: 400px) {
     .whatsapp-icon {
       width: 50px;
       height: 50px;
@@ -962,5 +962,5 @@ blockquote:hover .second-quote {
       margin: auto;
       width: 400px;
     }
-  }
+  } */
 }

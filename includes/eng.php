@@ -29,7 +29,6 @@
          </div>
          <div class="header-right">
              <p>Anglès Montalt</p>
-             <h5 class="phone-number" id="number1">Classes 666068734</h5>
          </div>
      </div>
 
