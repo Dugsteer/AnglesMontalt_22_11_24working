@@ -145,6 +145,20 @@ switch ($language) {
     }
 
     function inTouch() {
+
+        top1.classList.remove("left"),
+            top1.classList.remove("right"),
+            top1.classList.add("middle"),
+            top2.classList.add("right");
+    }
+
+    function contactMe() {
+        const top1Element = document.getElementById("top1");
+        if (top1Element) {
+            top1Element.scrollIntoView({
+                behavior: "smooth"
+            }); // Smooth scrolling
+        }
         top1.classList.remove("left"),
             top1.classList.remove("right"),
             top1.classList.add("middle"),

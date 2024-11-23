@@ -34,18 +34,13 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">Hello!</li>
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Learn English</a>
+             <li class="underline" onclick="whoIs();" style="text-decoration: none">Learn English</a>
 
              <li id="contact" onclick="inTouch();" class="underline contact-large">More Info</li>
 
 
-             </li>
 
 
-             <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php">
-                 <li class="underline">Dugaldsteer.com</li>
-             </a>
          </ul>
          <!-- <span class="booky2text" id="web"
           >Un lloc web gratuït que estic programant per ajudar a professors i
@@ -145,6 +140,14 @@
                      </div>
                  </form>
 
+                 <blockquote>
+                     <div class="first-quote">
+                         "To speak another language is to have a second soul"—Charlemagne
+                     </div>
+                     <div class="second-quote">
+                         "Avoir une seconde langue, c'est avoir une seconde âme"—Charlemagne
+                     </div>
+                 </blockquote>
 
              </div>
              <div class="contact" id="contact">
@@ -154,7 +157,9 @@
                      to you as soon as possible. The first trial class is free. My address is:<br><br>Dugald Steer
                      <br>
                      Carrer Costa Daurada 5, <br> Sant Vicenç de Montalt, <br>
-                     08394 Barcelona
+                     08394 Barcelona<br><br> ➱ <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php"
+                         style="color: black; text-decoration: none;">Dugaldsteer.com</li>
+                     </a>
                  </p>
              </div>
              <div class="map-image">
@@ -181,7 +186,7 @@
      </div>
 
 
-     <div class="content" id="cards">
+     <div class="content" id="cards" onclick="inTouch();">
 
          <div class="card">
              <div class="card-inner">

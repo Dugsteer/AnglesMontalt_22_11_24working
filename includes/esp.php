@@ -34,18 +34,11 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">¡Hola!</li>
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Aprender Inglés</a>
+             <li class="underline" onclick="whoIs();" style="text-decoration: none">Aprender Inglés</a>
 
              <li id="contact" onclick="inTouch();" class="underline contact-large">Más Información</li>
 
 
-             </li>
-
-
-             <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php">
-                 <li class="underline">Dugaldsteer.com</li>
-             </a>
          </ul>
          <!-- <span class="booky2text" id="web"
           >Un lloc web gratuït que estic programant per ajudar a professors i
@@ -110,7 +103,7 @@
     }
     ?>
 
-                 <form id="form-id" class="form-class" method="post" action="">
+                 <form id="form-id" class="form-class" method="post" action="includes/submit-form.php">
 
                      <div class="form-group">
                          <label for="Name" class="label">nombre</label>
@@ -140,12 +133,24 @@
                  </form>
 
 
+
+                 <blockquote>
+                     <div class="first-quote">
+                         "Hablar otro idioma es posseer una segunda alma"—Carlomagno
+                     </div>
+                     <div class="second-quote">
+                         "Avoir une seconde langue, c'est avoir une seconde âme"—Charlemagne
+                     </div>
+                 </blockquote>
+
              </div>
              <div class="contact" id="contact">
                  <p class="details">Pónte en contacto conmigo mediante este formulario o enviando un whatsapp a
                      666068734 y le contestaré lo antes posible. La primera clase de prueba es gratis. Mi dirección
                      es:<br><br>Dugald Steer <br> Carrer Costa Daurada 5, <br> Sant Vicenç de Montalt, <br>
-                     08394 Barcelona
+                     08394 Barcelona<br><br> ➱ <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php"
+                         style="color: black; text-decoration: none;">Dugaldsteer.com</li>
+                     </a>
                  </p>
              </div>
              <div class="map-image">
@@ -172,7 +177,7 @@
      </div>
 
 
-     <div class="content" id="cards">
+     <div class="content" id="cards" onclick="inTouch();">
 
          <div class="card">
              <div class="card-inner">

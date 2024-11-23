@@ -35,18 +35,15 @@
 
      <div class="navcontent" id="navcontent">
          <ul>
-             <li id="whose" onclick="whoIs();" class="underline">Hola!</li>
-             <li class="underline"> <a class="nav-link" style="text-decoration: none" href="#cards">Aprendre Anglès</a>
+             <li class="underline" onclick="whoIs();" style="text-decoration: none">Aprendre Anglès</li>
 
              <li id="contact" onclick="inTouch();" class="underline contact-large">Més Informació</li>
 
 
-             </li>
 
 
-             <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php">
-                 <li class="underline">Dugaldsteer.com</li>
-             </a>
+
+
          </ul>
          <!-- <span class="booky2text" id="web"
           >Un lloc web gratuït que estic programant per ajudar a professors i
@@ -184,7 +181,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-                 <form id="form-id" class="form-class" method="post" action="">
+                 <form id="form-id" class="form-class" method="post" action="includes/submit-form.php">
 
                      <div class="form-group">
 
@@ -225,10 +222,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
              </div>
              <div class="contact" id="contact">
-                 <p class="details">Poseu-vos en contacte amb mi mitjançcant aquest formulari o enviant un whatsapp a
+                 <p class="details">Poseu-vos en contacte amb mi mitjançcant aquest formulari o enviant un whatsapp
+                     a
                      666068734 i us respondré el més aviat possible. La primera classe de prova és gratis. La meva
                      adreça és:<br><br>Dugald Steer <br> Carrer Costa Daurada 5, <br> Sant Vicenç de Montalt, <br>
-                     08394 Barcelona
+                     08394 Barcelona<br><br> ➱ <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php"
+                         style="color: black; text-decoration: none;">Dugaldsteer.com</li>
+                     </a>
                  </p>
              </div>
              <div class="map-image">
@@ -255,8 +255,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
      </div>
 
 
-     <div class="content" id="cards">
-
+     <div class="content" id="cards" onclick="contactMe();">
          <div class="card">
              <div class="card-inner">
                  <div class="card-front">
@@ -293,6 +292,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                  </div>
              </div>
          </div>
+         <!-- Repeat the same for other cards -->
+
 
 
          <div class="card">
@@ -406,6 +407,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
              </div>
          </div>
      </div>
+
      <div class="footer">Website by D.A.Steer/Anglès Montalt © <?php echo date('Y') ?>
      </div>
      <script src="https://www.google.com/recaptcha/api.js?render=6Lfrd28qAAAAAPhETCEDfQZvnt-QuyyPMSmqyIA0" async defer>
