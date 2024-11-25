@@ -68,7 +68,9 @@
                  </p>
              </div>
              <div class="extra-image" data-tooltip="T">
-                 <img src="/img/OlogySeries.jpg" alt="Ology Books including Dragonology written by Dugald Steer">
+                 <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php" target="_blank">
+                     <img src="/img/OlogySeries.jpg" alt="Ology Books including Dragonology written by Dugald Steer">
+                 </a>
              </div>
          </div>
 
@@ -165,7 +167,9 @@
 
 
      <div class="extra-image-small-screens">
-         <img src="/img/OlogySeries.jpg" alt="Ology Books including Dragonology written by Dugald Steer">
+         <a href="https://anglesmontalt.com/dugaldsteer/indexnew.php" target="_blank">
+             <img src="/img/OlogySeries.jpg" alt="Ology Books including Dragonology written by Dugald Steer">
+         </a>
      </div>
 
 
