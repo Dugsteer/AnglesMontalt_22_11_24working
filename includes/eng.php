@@ -186,7 +186,7 @@
      </div>
 
 
-     <div class="content" id="cards" onclick="inTouch();">
+     <div class="content" id="cards" onclick="contactMe();">
 
          <div class="card">
              <div class="card-inner">
